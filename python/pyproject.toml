@@ -1,0 +1,41 @@
+# See: https://packaging.python.org/en/latest/tutorials/packaging-projects/
+# See: https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+[build-system]
+requires = ["uv_build>=0.10.8,<0.11.0"]
+build-backend = "uv_build"
+
+[project]
+name = "known-schemes"
+description = "Well-known URI/IRI schemes."
+readme = "README.md"
+authors = [{ name = "Arto Bendiken", email = "arto@bendiken.net" }]
+license = "Unlicense"
+license-files = ["UNLICENSE"]
+version = "0.0.0"
+
+requires-python = ">=3.10"
+dependencies = []
+
+keywords = []
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: Public Domain",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.optional-dependencies]
+
+[project.urls]
+Homepage = "https://github.com/it-is-known"
+Repository = "https://github.com/it-is-known/known-schemes"
+Changelog = "https://github.com/it-is-known/known-schemes/blob/master/python/CHANGES.md"
+Releases = "https://github.com/it-is-known/known-schemes/releases"
+Issues = "https://github.com/it-is-known/known-schemes/issues"
+Documentation = "https://github.com/it-is-known/known-schemes/blob/master/python/README.md"
