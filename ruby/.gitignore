@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# JetBrains IntelliJ IDEA
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Editor backup files
+*~
+
+# Ruby artifacts
+.bundle
+.irb_history
+.yardoc
+Gemfile.lock
+*.gem
