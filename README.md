@@ -2,7 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
 [![Package on Crates.io](https://img.shields.io/crates/v/known-schemes)](https://crates.io/crates/known-schemes)
-[![Package on PyPI](https://img.shields.io/pypi/v/known-schemes)](https://pypi.org/project/known-schemes/)
+[![Package on PyPI](https://img.shields.io/pypi/v/known-schemes)](https://pypi.org/project/known-schemes)
+[![Package on RubyGems](https://img.shields.io/gem/v/known-schemes)](https://rubygems.org/gems/known-schemes)
 
 Well-known URI/IRI schemes.
 
@@ -18,6 +19,13 @@ cargo add known-schemes
 
 ```bash
 pip install -U known-schemes
+```
+
+### Installation from RubyGems
+
+```bash
+gem install known-schemes
+bundle add known-schemes
 ```
 
 ## 👨‍💻 Development
